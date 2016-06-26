@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#foto{background: #000 url(home.png) no-repeat top center;
+    display: block;
+	width: 1500px;	
+	height: 3160px;
+	margin: 0 auto ;
+	text-align: center;
+	padding: 0;
+}
