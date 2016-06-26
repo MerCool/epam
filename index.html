@@ -3,6 +3,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Epam HTML/CSS</title>
+	<link href="css/reset.css" Type="text/css" rel="stylesheet">
 	<link href="css/style.css" Type="text/css" rel="stylesheet">
 </head>
 <body>
@@ -23,14 +24,16 @@
 			<ul class="slider-img">
 				<li class="active">
 					<img src="img/Layer.png">
-					<div class="slider-title">Clean, flat & polished design</div>
-					<div class="slider-description">Proin facilicies aliquim nunc quis varius.</div>
-					<button class="slider-button">Show more</button>
+					<div class="slider-item-text">
+						<div class="slider-title">Clean, flat & polished design</div>
+						<div class="slider-description">Proin facilicies aliquim nunc quis varius.</div>
+						<button class="slider-button">Show more</button>
+					</div>
 				</li>
 			</ul>
 			<ol class="slider-indicators">
-				<li class="active"></li>
 				<li></li>
+				<li class="active"></li>
 				<li></li>
 			</ol>
 			<a class="left slider-control" href="#">
@@ -43,14 +46,14 @@
 	</header>
 	<section>
 		<article>
-			<details>Lorem ipsum is symply dummy text of the printing and typesettings industry. Lorem ipsum has been the 
-			industry's standart dummy text ever since type specimen book!!</details>
+			<div class="details">Lorem ipsum is symply dummy text of the printing and typesettings industry. Lorem ipsum has been the 
+			industry's standart dummy text ever since type specimen book!!</div>
 			<div class="inline-blocks">
-				<a class="inline-item">
+				<a href="#" class="inline-item">
 					<div class="img-holder layer1">
-						<div class="photo-icon-holder">
-							<span class="photo-icon photoap"></span>
-						</div>
+					</div>
+					<div class="photo-icon-holder">
+						<span class="photo-icon photoap"></span>
 					</div>
 					<div class="inline-item-description">
 						<h2>What we are?</h2>
@@ -58,11 +61,11 @@
 					</div>
 				</a>
 				
-				<a class="inline-item">
+				<a href="#" class="inline-item center-item">
 					<div class="img-holder layer2">
-						<div class="photo-icon-holder">
-							<span class="photo-icon pen"></span>
-						</div>
+					</div>
+					<div class="photo-icon-holder">
+						<span class="photo-icon pen"></span>
 					</div>
 					<div class="inline-item-description">
 						<h2>Start our project</h2>
@@ -70,37 +73,41 @@
 					</div>
 				</a>
 				
-				<a class="inline-item">
+				<a href="#" class="inline-item">
 					<div class="img-holder layer3">
-						<div class="photo-icon-holder">
+					</div>
+					<div class="photo-icon-holder">
 							<span class="photo-icon cart"></span>
 						</div>
-					</div>
 					<div class="inline-item-description">
 						<h2>Our Team</h2>
 						<p>Lorem ipsum is symply dummy text of the printing and typesettings industry.</p>
 					</div>
 				</a>
+				<div class="clearfix"></div>
 			</div>
 		</article>
 		<article>
 			<div class="devider"><img class="divider-icon" src="img/check.png"></div>
 			<h2 class="article-title">Our <b>Features</b></h2>
-			<div class="full-string-item img-left">
-				<img src="img/mobile.png">
+			<div class="full-string-item">
+				<img src="img/mobile.png" class="img-left">
 				<h3>Lorem ipsum is symply!!</h3>
 				<p>Lorem ipsum is symply dummy text of the printing and typesettings industry. Lorem ipsum has been the 
 			industry's standart dummy text ever since type specimen book!! Lorem ipsum is symply dummy text of the printing and typesettings industry. Lorem ipsum has been the 
 			industry's standart dummy text ever since type specimen book!!</p>
 				<button>read more</button>
+				<div class="clearfix"></div>
 			</div>
-			<div class="full-string-item img-right">
-				<img src="img/Camera.png">
+			<hr class="border" />
+			<div class="full-string-item">
+				<img src="img/Camera.png" class="img-right">
 				<h3>A flat camera</h3>
 				<p>Lorem ipsum is symply dummy text of the printing and typesettings industry. Lorem ipsum has been the 
 			industry's standart dummy text ever since type specimen book!! Lorem ipsum is symply dummy text of the printing and typesettings industry. Lorem ipsum has been the 
 			industry's standart dummy text ever since type specimen book!!</p>
 				<button>read more</button>
+				<div class="clearfix"></div>
 			</div>
 		</article>
 		<article>
