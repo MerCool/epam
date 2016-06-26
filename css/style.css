@@ -1,6 +1,7 @@
 body {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	color: #575757;
+	font-size: 14px;
 }
 header {
 	position: relative;
@@ -261,4 +262,43 @@ article {
 .border {
 	color: #E1E1E1;
 	border-top: 1px solid #E1E1E1;
+}
+.article-description {
+	text-align: center;
+	margin: 12px 0 50px 0;
+}
+.photo-list-wrapper {
+	text-align: left;
+}
+.photo-item {
+	display: inline-block;
+	margin: 0 0 0 15px;
+}
+.photo-item-first {
+	display: inline-block;
+	margin-right: 0;
+}
+.photo-title {
+	text-align: center;
+	font-size: 21px;
+	margin: 16px 0 2px 0;
+}
+.photo-category {
+	text-align: center;
+}
+.photo-list-wrapper a {
+	position: relative;
+}
+
+.photo-list-wrapper a .hover {
+	display: none;
+}
+.photo-list-wrapper a:hover .hover {
+	display: block;
+	position: absolute;
+	width: 32px;
+	height:32px;
+	top: -109px;
+	left: 45%;
+	background: url('../img/search.png') no-repeat center center;
 }
