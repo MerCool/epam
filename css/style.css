@@ -302,3 +302,21 @@ article {
 	left: 45%;
 	background: url('../img/search.png') no-repeat center center;
 }
+.rewiews-list-wrapper {
+	margin: 50px 0 0 0;
+	text-align: center;
+}
+.review-text {
+	font-size: 21px;
+}
+.author {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 35px;
+	padding: 35px 0 0 0;
+	width: 368px;
+	background: url('../img/Shape7.png') no-repeat top left;
+}
+.author b {
+	font-weight: 700;
+}
