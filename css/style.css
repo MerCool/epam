@@ -128,7 +128,7 @@ footer {
 			display:inline-block;
 			margin: 0 14px 0 14px;
 			
-			background: url('../img/Ellipse2copy.png') no-repeat top center;
+			background: url('../img/pointer.png') no-repeat top center;
 			
 			cursor: pointer;
 		}
@@ -154,11 +154,11 @@ footer {
 	}
 	.left.slider-control {
 		left: 100px;
-		background: url('../img/Ellipse_4_left.png') no-repeat top center;
+		background: url('../img/shange_arrow_left.png') no-repeat top center;
 	}
 	.right.slider-control {
 		right: 100px;
-		background: url('../img/Ellipse_4.png') no-repeat top center;
+		background: url('../img/shange_arrow_right.png') no-repeat top center;
 	}
 	
 	.article-block {
@@ -199,13 +199,13 @@ footer {
 			overflow: hidden;
 		}
 		.picture-bg {
-			background: url('../img/Layer3.png') no-repeat top center;
+			background: url('../img/picture.png') no-repeat top center;
 		}
 		.bike-bg {
-			background: url('../img/Layer4.png') no-repeat top center;
+			background: url('../img/bike.png') no-repeat top center;
 		}
 		.grass-bg {
-			background: url('../img/Layer5.png') no-repeat top center;
+			background: url('../img/grass.png') no-repeat top center;
 		}
 		.photo-icon-holder {
 			position: absolute;
@@ -215,7 +215,7 @@ footer {
 			width: 96px;
 			height: 96px;
 			
-			background: url('../img/Ellipse3copy2.png') no-repeat center center;
+			background: url('../img/icon_bg.png') no-repeat center center;
 		}
 		.photo-icon {
 			display: block;
@@ -361,7 +361,7 @@ footer {
 			margin-top: 35px;
 			padding: 35px 0 0 0;
 			
-			background: url('../img/Shape7.png') no-repeat top left;
+			background: url('../img/review_border.png') no-repeat top left;
 			
 			text-align: center;
 		}
@@ -374,12 +374,12 @@ footer {
 		height: 10px;
 		margin: 0 3px;
 		
-		background: url('../img/Ellipse5copy3.png') no-repeat top center;
+		background: url('../img/indicator.png') no-repeat top center;
 		
 		cursor: pointer;
 	}
 	.review-indicators_item.active {
-		background: url('../img/Ellipse5copy4.png') no-repeat top center;
+		background: url('../img/indicator_active.png') no-repeat top center;
 		cursor: default; 
 	}
 	
