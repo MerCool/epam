@@ -1,0 +1,18 @@
+.contact-list {
+	color: #fff;
+	margin: 15px 0 0 0;
+}
+	.contact-list_item {
+		padding: 0 0 0 35px;
+		margin: 0 0 10px 0;
+		height: 19px;
+	}
+		.address-point-icon  {
+			background: url('../../img/address-point.png') no-repeat center left;
+		}
+		.email-icon {
+			background: url('../../img/mail.png') no-repeat center left;
+		}
+		.phone-icon {
+			background: url('../../img/phone.png') no-repeat center left;
+		}

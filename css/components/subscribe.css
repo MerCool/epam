@@ -1,0 +1,29 @@
+.subscribe {
+	margin: 15px 0 0 0;
+}
+	.subscribe-input {
+		width: 160px;
+		border: 1px solid #172227;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		padding: 9px;
+		
+		background: #172227;
+		color: #BCBCBD;
+	}
+	.subscribe-input:focus {
+		outline: none;
+	}
+	.subscribe-button {
+		padding: 9px;
+		border: 1px solid #71B6D5;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		
+		background: #71B6D5;
+		color: #fff;
+		
+		text-transform: uppercase;
+		
+		cursor: pointer;
+	}

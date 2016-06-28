@@ -1,0 +1,23 @@
+.bottom-social {
+	float: right;
+	padding: 25px 0 0 0;
+}
+	.bottom-social_item {
+		display: inline-block;
+		margin: 0 0 0 6px;
+	}
+		.socicon {
+			width: 29px;
+			height: 29px;
+			display: block;
+			
+		}
+		.twitter-socicon {
+			background: url('../../img/tweetsocicon.png') no-repeat center center;
+		}
+		.facebook-socicon {
+			background: url('../../img/facebscicon.png') no-repeat center center;
+		}
+		.in-socicon {
+			background: url('../../img/insocinc.png') no-repeat center center;
+		}

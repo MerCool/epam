@@ -1,0 +1,141 @@
+body {
+	color: #575757;
+}
+
+.clearfix {
+	clear: both;
+}
+.border {
+	color: #E1E1E1;
+	border-top: 1px solid #E1E1E1;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.logo {
+	float: left;
+}
+	
+	
+.details {	
+	color: #575757;
+	
+	text-align: center;
+	font-size: 21px;
+	line-height: 1.2;
+}
+
+.inline-blocks {
+	text-align: center;
+}
+.inline-blocks_item {
+	text-decoration: none;
+}
+		
+.picture-bg {
+	background: url('../img/picture.png') no-repeat top center;
+}
+.bike-bg {
+	background: url('../img/bike.png') no-repeat top center;
+}
+.grass-bg {
+	background: url('../img/grass.png') no-repeat top center;
+}
+
+.photo-icon-holder {
+	background: url('../img/icon_bg.png') no-repeat center center;
+}
+
+.photo-icon_photoap {
+	background: url('../img/photo.png') no-repeat center center;
+}
+.photo-icon_cart {
+	background: url('../img/cart.png') no-repeat center center;
+}
+.photo-icon_pen {
+	background: url('../img/pen.png') no-repeat center center;
+}
+		
+.inline-blocks_item_title {
+	color: #484848;
+	font-size: 21px;
+}
+.inline-blocks_item_description {
+	color: #575757;
+	
+	line-height: 1.3;
+	font-size: 15px;
+}
+		
+.devider {
+	text-align: center;
+}
+	.divider-icon {
+		background: #fff;
+	}
+			
+.article-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+		
+.article-description {
+	text-align: center;
+}
+		
+		
+.full-string-item_title {
+	color: #484848;
+	
+	font-size: 22px;
+}
+.full-string-item_description {
+	line-height: 1.4;
+	font-size: 15px;
+}
+
+.btn-transparent {
+	background: transparent;
+	color: #71B6D5;
+	
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 14px;
+	
+	cursor: pointer;
+}
+	
+.footer-top {
+	background: #273A43;
+	color: #BCBCBD;
+}
+	
+.footer-item-title {
+	color: #fff;
+	
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.footer-top_item .description {
+	line-height: 1.4;
+}
+			
+.email {
+	color: #fff;
+	text-decoration: none;
+}
+.email:hover {
+	text-decoration: underline;
+}			
+	
+.footer-bottom {
+	background: #172227;
+	color: #BCBCBD;
+}
+.copyright {
+	padding: 35px 0 0 0;
+	float: left;
+}

@@ -1,0 +1,98 @@
+.slider-list {
+	position: relative;
+	text-align: center;
+}
+	.slider-list_item {
+		min-height: 500px;
+	}
+		.slider-img {
+			width: 100%;
+		}
+		.slider-item-text {
+			position: absolute;
+			width: 1022px;
+			margin: auto;
+			top: 230px;
+			left: 50%;
+			z-index:100;
+			margin-left: -511px;
+			text-align: center;
+		}
+			.slider-title {
+				color: #fff;
+				
+				font-size: 50px;
+			}
+			.slider-description {
+				margin-top: 4px;
+				
+				color: #fff;
+				
+				font-size: 27px;
+			}
+			.slider-button {
+				margin-top: 40px;
+				padding: 15px 20px;
+				border: 0;
+				border-radius: 4px;
+				
+				color: #fff;
+				background: #71B6D5;
+				
+				text-transform: uppercase;
+				font-size: 17px;
+				
+				cursor: pointer;
+			}
+		
+.slider-indicators {
+	position: absolute;
+	left: 50%;
+	z-index:100;
+	
+	width: 1022px;
+	margin: auto;
+	bottom: 50px;
+	margin-left: -511px;
+	
+	text-align: center;
+	vertical-align: middle;
+}
+	.slider-indicators_item {
+		width: 7px;
+		height: 7px;
+		display:inline-block;
+		margin: 0 14px 0 14px;
+		
+		background: url('../../img/pointer.png') no-repeat top center;
+		
+		cursor: pointer;
+	}
+	.slider-indicators_item.active {
+		width: 25px;
+		height: 25px;
+		display:inline-block;
+		margin: 0px 2px -9px 2px;
+		
+		background: url('../../img/pointer_act.png') no-repeat top center;
+		
+		cursor: default;
+	}
+
+.slider-control {
+	position: absolute;
+	z-index: 200;
+	top: 45%;
+	
+	width: 43px;
+	height: 43px;
+	display: block;
+}
+.left.slider-control {
+	left: 100px;
+	background: url('../../img/shange_arrow_left.png') no-repeat top center;
+}
+.right.slider-control {
+	right: 100px;
+	background: url('../../img/shange_arrow_right.png') no-repeat top center;
+}
